@@ -9,7 +9,7 @@ import { textVariant } from '../../utils/motion';
 
 export default function Experience() {
   return (
-    <SectionWrapper idName='projects'>
+    <SectionWrapper idName=''>
       <motion.div
         //@ts-ignore
         variants={textVariant()}
