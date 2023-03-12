@@ -1,16 +1,15 @@
 import { BrowserRouter } from 'react-router-dom';
 import About from './components/about/About';
+import Stars from './components/canvas/Stars';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Feedbacks from './components/feedbacks/Feedbacks';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
-import StarsCanvas from './components/starsCanvas/StarsCanvas';
 import Tech from './components/tech/Tech';
 
 export default function App() {
-
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
@@ -25,9 +24,9 @@ export default function App() {
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />
-          <StarsCanvas />
+          <Stars />
         </div>
       </div>
     </BrowserRouter>
-  )
+  );
 }

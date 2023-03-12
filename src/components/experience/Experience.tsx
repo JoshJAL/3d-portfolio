@@ -10,10 +10,7 @@ import { textVariant } from '../../utils/motion';
 export default function Experience() {
   return (
     <SectionWrapper idName=''>
-      <motion.div
-        //@ts-ignore
-        variants={textVariant()}
-      >
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Work Experience.</h2>
       </motion.div>

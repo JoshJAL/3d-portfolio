@@ -259,4 +259,6 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const staticPortfolio = 'https://www.joshualevine.me/';
+
+export { services, technologies, experiences, testimonials, projects, staticPortfolio };
