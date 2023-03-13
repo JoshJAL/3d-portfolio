@@ -30,12 +30,21 @@ export const navLinks = [
     title: 'About'
   },
   {
+    id: 'experience',
+    title: 'Work Experience'
+  },
+  {
     id: 'projects',
     title: 'Projects'
   },
   {
     id: 'contact',
     title: 'Contact'
+  },
+  {
+    id: 'source',
+    title: 'Source',
+    link: 'https://github.com/JoshJAL/3d-portfolio'
   }
 ];
 
@@ -253,4 +262,6 @@ const projects = [
 
 const staticPortfolio = 'https://www.joshualevine.me/';
 
-export { services, technologies, experiences, testimonials, projects, staticPortfolio };
+const SOURCE = 'https://github.com/JoshJAL/3d-portfolio';
+
+export { services, technologies, experiences, testimonials, projects, staticPortfolio, SOURCE };

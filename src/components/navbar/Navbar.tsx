@@ -38,7 +38,7 @@ export default function Navbar() {
                 setActive(link.title);
               }}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={link.link ? link.link : `#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
@@ -68,7 +68,7 @@ export default function Navbar() {
                     setToggle(!toggle);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={link.link ? link.link : `#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
