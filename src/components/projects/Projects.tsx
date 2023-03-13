@@ -23,8 +23,8 @@ export default function Projects() {
         >
           The following projects showcase my skills and experience through real-world examples of my work. Each project
           is described briefly with relevant links to my code or hosted application. They reflect my ability to work
-          with different technologies, and manage projects effectively. If you would prefer to view these on my static
-          portfolio you can do so{' '}
+          with different technologies, and manage projects effectively. There are more projects showcased on my static
+          portfolio{' '}
           <a
             href={`${staticPortfolio}projects`}
             target='_blank'
