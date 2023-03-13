@@ -32,6 +32,12 @@ import flashCards from '/project_images/flashcardOMaticHomePage.jpg';
 import pomodoroTimer from '/project_images/pomodoroTimerHomePage.jpg';
 import simpleCalc from '/project_images/simpleCalcHome.jpg';
 import ticketingSolution from '/project_images/ticketForm.jpg';
+import javaSnake from '/project_images/gameRunning.jpg';
+import javaCalc from '/project_images/javaCalcHome.jpg';
+import adminDashboard from '/project_images/desktop-dark.jpg';
+import textEditor from '/project_images/firstOpen.jpg';
+import TIU from '/project_images/home-dark.jpg';
+import modernUI from '/project_images/modernUIHome-page.jpg';
 
 export {
   logo,
@@ -64,5 +70,11 @@ export {
   OPL,
   LAS,
   simpleCalc,
-  ticketingSolution
+  ticketingSolution,
+  javaSnake,
+  javaCalc,
+  adminDashboard,
+  textEditor,
+  TIU,
+  modernUI
 };

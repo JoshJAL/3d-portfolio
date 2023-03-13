@@ -23,7 +23,13 @@ import {
   OPL,
   LAS,
   simpleCalc,
-  ticketingSolution
+  ticketingSolution,
+  javaSnake,
+  javaCalc,
+  adminDashboard,
+  textEditor,
+  TIU,
+  modernUI
 } from '../assets';
 
 export const navLinks = [
@@ -203,15 +209,27 @@ const projects = [
       'A restaurant reservation system for a fictional restaurant. The user is able to create reservations for a specific date and time. The user is also able to assign a reservation to a specific table on a specific date as well as create new tables as needed.',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient'
       },
       {
-        name: 'node.js',
+        name: 'Node.js',
         color: 'green-text-gradient'
       },
       {
-        name: 'sql',
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
+        name: 'HTML',
+        color: 'orange-text-gradient'
+      },
+      {
+        name: 'CSS',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'SQL',
         color: 'pink-text-gradient'
       }
     ],
@@ -224,12 +242,24 @@ const projects = [
       'A flashcard making app for taking notes and studying any subject. Moving into as digitally focused an age as we are, I believe that it is time to start upgrading our ways of studying. This app allows for the user to create decks of flashcards focused on any subject. There are front and back parts of the card for the user to utilize in any way that they wish. The user can create, delete and edit flashcards and decks as they see fit. There is a breadcrumb feature at the top of each page to ensure that the user is always able to revert to any page if they wish to do so.',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient'
       },
       {
-        name: 'node.js',
+        name: 'Node.js',
         color: 'green-text-gradient'
+      },
+      {
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
+        name: 'HTML',
+        color: 'orange-text-gradient'
+      },
+      {
+        name: 'CSS',
+        color: 'blue-text-gradient'
       }
     ],
     image: flashCards,
@@ -241,12 +271,24 @@ const projects = [
       'A study timer built around the Pomodoro Technique with a "Focus" timer and a "Break" timer. After the time has elapsed for either the "Focus" or "Break" phase an alarm will play informing the user that it is time to either take a break or get back to work. I use this personally and find that it greatly aids in countering burnout when working on large projects.',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient'
       },
       {
-        name: 'node.js',
+        name: 'Node.js',
         color: 'green-text-gradient'
+      },
+      {
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
+        name: 'HTML',
+        color: 'orange-text-gradient'
+      },
+      {
+        name: 'CSS',
+        color: 'blue-text-gradient'
       }
     ],
     image: pomodoroTimer,
@@ -259,15 +301,15 @@ const projects = [
     tags: [
       {
         name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
+        name: 'HTML',
+        color: 'orange-text-gradient'
+      },
+      {
+        name: 'CSS',
         color: 'blue-text-gradient'
-      },
-      {
-        name: 'html',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient'
       }
     ],
     image: simpleCalc,
@@ -284,12 +326,20 @@ const projects = [
         color: 'blue-text-gradient'
       },
       {
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
         name: 'Next.js',
         color: 'green-text-gradient'
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient'
+        name: 'HTML',
+        color: 'orange-text-gradient'
+      },
+      {
+        name: 'CSS',
+        color: 'blue-text-gradient'
       }
     ],
     image: ticketingSolution,
@@ -305,8 +355,103 @@ const projects = [
         color: 'orange-text-gradient'
       }
     ],
-    image: ticketingSolution,
-    source_code_link: 'https://github.com/JoshJAL/ticketingSolution'
+    image: javaSnake,
+    source_code_link: 'https://github.com/JoshJAL/JavaSnake'
+  },
+  {
+    name: 'Java Calculator',
+    description:
+      'A simple calculator application written in Java. The calculator can perform basic arithmetic operations like addition, subtraction, multiplication, and division.',
+    tags: [
+      {
+        name: 'Java',
+        color: 'orange-text-gradient'
+      }
+    ],
+    image: javaCalc,
+    source_code_link: 'https://github.com/JoshJAL/JavaCalculator'
+  },
+  {
+    name: 'Admin Dashboard',
+    description:
+      'An admin dashboard for a fake e-commerce website. This dashboard will allow the admin to view, create, edit and delete products, categories and users. The admin will also be able to view the orders that have been placed and change the status of the order. The admin will also be able to view the analytics of the website.',
+    tags: [
+      {
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
+        name: 'HTML',
+        color: 'orange-text-gradient'
+      },
+      {
+        name: 'CSS',
+        color: 'blue-text-gradient'
+      }
+    ],
+    image: adminDashboard,
+    source_code_link: 'https://admin-dashboard-six-lake.vercel.app/',
+    hosted_application_link: 'https://joshjal.github.io/admin-dashboard/'
+  },
+  {
+    name: 'Text Editor',
+    description:
+      'A simple text editor written in Java that allows the user to open, edit and save text files. The user can also change the font size, font style and font color.',
+    tags: [
+      {
+        name: 'Java',
+        color: 'orange-text-gradient'
+      }
+    ],
+    image: textEditor,
+    source_code_link: 'https://github.com/JoshJAL/JavaTextEditor'
+  },
+  {
+    name: 'Things I Use',
+    description:
+      "A curated list of the tech that I use. This is a static site built with Astro and React. The site features a light and a dark mode. It's purpose is not only to be a place where I can share the tech that I use, but a place for people to get to know me a little better. There are posts about the tech that I use, and why I like it so much.",
+    tags: [
+      {
+        name: 'Astro',
+        color: 'violet-text-gradient'
+      },
+      {
+        name: 'React',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
+        name: 'Tailwind',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Markdown',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: TIU,
+    source_code_link: 'https://github.com/JoshJAL/what-i-use',
+    hosted_application_link: 'https://things-i-use.vercel.app/'
+  },
+  {
+    name: 'Modern UI Design',
+    description:
+      'A modern UI design for a fictional company. There are multiple pages that are accessible through the various buttons on the navigation bar on the left.',
+    tags: [
+      {
+        name: 'C#',
+        color: 'green-text-gradient'
+      }
+    ],
+    image: modernUI,
+    source_code_link: 'https://github.com/JoshJAL/ModernUICSharp'
   }
 ];
 
