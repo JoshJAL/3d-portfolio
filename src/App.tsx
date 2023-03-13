@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import About from './components/about/About';
+import Blurb from './components/blurb/Blurb';
 import Stars from './components/canvas/Stars';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
@@ -13,9 +14,10 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center relative'>
           <Navbar />
           <Hero />
+          <Blurb />
         </div>
         <About />
         <Experience />

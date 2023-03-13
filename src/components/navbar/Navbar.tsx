@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../../styles';
-import { navLinks } from '../../constants';
+import { navLinks, staticPortfolio } from '../../constants';
 import { logo, menu, close } from '../../assets';
 import RocketShip from '../rocketShip/RocketShip';
 export default function Navbar() {
@@ -27,7 +27,7 @@ export default function Navbar() {
             Joshua&nbsp;<span className='sm:block hidden'>Levine</span>
           </p>
         </Link>
-        <ul className='list-none sm:flex flex-row gap-10 hidden'>
+        <ul className='list-none lg:flex flex-row gap-10 hidden'>
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -44,7 +44,7 @@ export default function Navbar() {
         </ul>
 
         {/* Mobile Navbar */}
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img
             src={!toggle ? menu : close}
             alt='menu'
@@ -71,6 +71,12 @@ export default function Navbar() {
                   <a href={link.link ? link.link : `#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li
+                onClick={() => setToggle(!toggle)}
+                className={'text-secondary font-poppins font-medium cursor-pointer md:hidden'}
+              >
+                <a href={staticPortfolio}>Static Site</a>
+              </li>
             </ul>
           </div>
         </div>
