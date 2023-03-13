@@ -1,28 +1,27 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs
+  threejs,
+  java,
+  astro,
+  nextjs,
+  cSharp,
+  RGE,
+  HXL,
+  OPL,
+  LAS
 } from '../assets';
 
 export const navLinks = [
@@ -46,16 +45,12 @@ const services = [
     icon: web
   },
   {
-    title: 'React Native Developer',
-    icon: mobile
-  },
-  {
     title: 'Backend Developer',
     icon: backend
   },
   {
-    title: 'Content Creator',
-    icon: creator
+    title: 'React Native Developer',
+    icon: mobile
   }
 ];
 
@@ -77,12 +72,24 @@ const technologies = [
     icon: typescript
   },
   {
+    name: 'Java',
+    icon: java
+  },
+  {
+    name: 'C Sharp',
+    icon: cSharp
+  },
+  {
     name: 'React JS',
     icon: reactjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
+    name: 'Next JS',
+    icon: nextjs
+  },
+  {
+    name: 'Astro',
+    icon: astro
   },
   {
     name: 'Tailwind CSS',
@@ -93,76 +100,61 @@ const technologies = [
     icon: nodejs
   },
   {
-    name: 'MongoDB',
-    icon: mongodb
-  },
-  {
     name: 'Three JS',
     icon: threejs
   },
   {
     name: 'git',
     icon: git
-  },
-  {
-    name: 'figma',
-    icon: figma
-  },
-  {
-    name: 'docker',
-    icon: docker
   }
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'Customer Service and Video Editor',
+    company_name: 'Levine Apparel Solutions',
+    icon: LAS,
+    iconBg: '#f5faff',
+    date: 'Aug 2015 - Sept 2019',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Edited video for company YouTube channel to support marketing and sales initiatives.',
+      'Managed overseas customer care and dispersal of information.',
+      'Communicated over various time zones via phone and email.'
     ]
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'Legal Intern',
+    company_name: 'Open Palm Law',
+    icon: OPL,
+    iconBg: 'white',
+    date: 'Dec 2019 - Aug 2020',
+    points: [
+      'Provided operational support to ensure smooth and effective client services running a law firm.',
+      'Reviewed court documents for errors and possible advantages.',
+      'Investigated past law to prove a common law marriage validity.'
+    ]
+  },
+  {
+    title: 'Enrollment Specialist',
+    company_name: 'HealthXL',
+    icon: HXL,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Aug 2021 - Mar 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Ensured retainment of patients over various offices by communicating directly with patients.',
+      'Handled and evaluated customer inquiries and complaints.',
+      'Provided assistance to other related departments to promote teamwork and efficiency.'
     ]
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Full-Stack JavaScript Developer',
+    company_name: 'Rob Graham Enterprises',
+    icon: RGE,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'May 2022 - Nov 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Developing and maintaining web applications using Next.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, marketing, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
     ]
@@ -171,21 +163,21 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Josh proved me wrong.',
     name: 'Sara Lee',
     designation: 'CFO',
     company: 'Acme Co',
     image: 'https://randomuser.me/api/portraits/women/4.jpg'
   },
   {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial: "I've never met a web developer who truly cares about their clients' success like Josh does.",
     name: 'Chris Brown',
     designation: 'COO',
     company: 'DEF Corp',
     image: 'https://randomuser.me/api/portraits/men/5.jpg'
   },
   {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial: "After Josh optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: 'Lisa Wang',
     designation: 'CTO',
     company: '456 Enterprises',
