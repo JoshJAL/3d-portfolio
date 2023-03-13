@@ -51,7 +51,7 @@ function FeedbackCard({ index, testimonial, designation, name, company, image }:
             {designation || company ? (
               <p className='mt-1 text-secondary text-xs'>
                 {designation ? designation + ' at ' : null}
-                {company ? company + ', ' : null}
+                {company ? company : null}
               </p>
             ) : null}
           </div>
