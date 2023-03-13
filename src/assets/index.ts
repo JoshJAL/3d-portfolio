@@ -27,9 +27,11 @@ import HXL from './company/HealthXL.png';
 import OPL from './company/JJ-logo.png';
 import LAS from './company/LAS.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import periodicTables from '/project_images/periodicHomePage.jpg';
+import flashCards from '/project_images/flashcardOMaticHomePage.jpg';
+import pomodoroTimer from '/project_images/pomodoroTimerHomePage.jpg';
+import simpleCalc from '/project_images/simpleCalcHome.jpg';
+import ticketingSolution from '/project_images/ticketForm.jpg';
 
 export {
   logo,
@@ -50,9 +52,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  periodicTables,
+  flashCards,
+  pomodoroTimer,
   java,
   astro,
   nextjs,
@@ -60,5 +62,7 @@ export {
   RGE,
   HXL,
   OPL,
-  LAS
+  LAS,
+  simpleCalc,
+  ticketingSolution
 };

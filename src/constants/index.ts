@@ -10,9 +10,9 @@ import {
   tailwind,
   nodejs,
   git,
-  carrent,
-  jobit,
-  tripguide,
+  periodicTables,
+  flashCards,
+  pomodoroTimer,
   threejs,
   java,
   astro,
@@ -21,7 +21,9 @@ import {
   RGE,
   HXL,
   OPL,
-  LAS
+  LAS,
+  simpleCalc,
+  ticketingSolution
 } from '../assets';
 
 export const navLinks = [
@@ -196,58 +198,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Periodic Tables',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'A restaurant reservation system for a fictional restaurant. The user is able to create reservations for a specific date and time. The user is also able to assign a reservation to a specific table on a specific date as well as create new tables as needed.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient'
       },
       {
-        name: 'mongodb',
+        name: 'node.js',
         color: 'green-text-gradient'
       },
       {
-        name: 'tailwind',
+        name: 'sql',
         color: 'pink-text-gradient'
       }
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/'
+    image: periodicTables,
+    source_code_link: 'https://github.com/JoshJAL/restaurant_reservation_system'
   },
   {
-    name: 'Job IT',
+    name: 'Flashcard-O-Matic',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A flashcard making app for taking notes and studying any subject. Moving into as digitally focused an age as we are, I believe that it is time to start upgrading our ways of studying. This app allows for the user to create decks of flashcards focused on any subject. There are front and back parts of the card for the user to utilize in any way that they wish. The user can create, delete and edit flashcards and decks as they see fit. There is a breadcrumb feature at the top of each page to ensure that the user is always able to revert to any page if they wish to do so.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient'
       },
       {
-        name: 'restapi',
+        name: 'node.js',
         color: 'green-text-gradient'
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient'
       }
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/'
+    image: flashCards,
+    source_code_link: 'https://github.com/JoshJAL/FlashCards'
   },
   {
-    name: 'Trip Guide',
+    name: 'Pomodoro Timer',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A study timer built around the Pomodoro Technique with a "Focus" timer and a "Break" timer. After the time has elapsed for either the "Focus" or "Break" phase an alarm will play informing the user that it is time to either take a break or get back to work. I use this personally and find that it greatly aids in countering burnout when working on large projects.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient'
       },
       {
-        name: 'supabase',
+        name: 'node.js',
+        color: 'green-text-gradient'
+      }
+    ],
+    image: pomodoroTimer,
+    source_code_link: 'https://github.com/JoshJAL/Pomodoro-Timer-Project'
+  },
+  {
+    name: 'Simple JavaScript Calculator',
+    description:
+      'A simple calculator application that can add, subtract, multiply and divide. Intended for simple mathematical problems.',
+    tags: [
+      {
+        name: 'JavaScript',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'html',
         color: 'green-text-gradient'
       },
       {
@@ -255,8 +270,43 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/'
+    image: simpleCalc,
+    source_code_link: 'https://github.com/JoshJAL/simpleCalculator',
+    hosted_application_link: 'https://joshjal.github.io/simpleCalculator/'
+  },
+  {
+    name: 'Ticketing Solution',
+    description:
+      'A scalable ticketing solution for use within any company or organization. The application is password protected and developers are the only ones able to whitelist accounts that can gain access and sign up to use the system. Interactions with the application are different based on the type of user; developer, quality assurance, or general user.',
+    tags: [
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Next.js',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: ticketingSolution,
+    source_code_link: 'https://github.com/JoshJAL/ticketingSolution'
+  },
+  {
+    name: 'Java Snake',
+    description:
+      'The classic game of Snake. The player controls a snake that moves around the screen and eats apples. This program is written in Java and uses the Java Swing library to create the GUI.',
+    tags: [
+      {
+        name: 'Java',
+        color: 'orange-text-gradient'
+      }
+    ],
+    image: ticketingSolution,
+    source_code_link: 'https://github.com/JoshJAL/ticketingSolution'
   }
 ];
 
