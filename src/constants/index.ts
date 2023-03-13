@@ -11,8 +11,6 @@ import {
   nodejs,
   git,
   periodicTables,
-  flashCards,
-  pomodoroTimer,
   threejs,
   java,
   astro,
@@ -22,12 +20,7 @@ import {
   HXL,
   OPL,
   LAS,
-  simpleCalc,
-  ticketingSolution,
   javaSnake,
-  javaCalc,
-  adminDashboard,
-  textEditor,
   TIU,
   modernUI
 } from '../assets';
