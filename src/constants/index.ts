@@ -237,28 +237,6 @@ const projects = [
     source_code_link: 'https://github.com/JoshJAL/JavaSnake'
   },
   {
-    name: 'Admin Dashboard',
-    description:
-      'An admin dashboard for a fake e-commerce website. This dashboard will allow the admin to view, create, edit and delete products, categories and users. The admin will also be able to view the orders that have been placed and change the status of the order. The admin will also be able to view the analytics of the website.',
-    tags: [
-      {
-        name: 'JavaScript',
-        color: 'yellow-text-gradient'
-      },
-      {
-        name: 'HTML',
-        color: 'orange-text-gradient'
-      },
-      {
-        name: 'CSS',
-        color: 'blue-text-gradient'
-      }
-    ],
-    image: adminDashboard,
-    source_code_link: 'https://admin-dashboard-six-lake.vercel.app/',
-    hosted_application_link: 'https://joshjal.github.io/admin-dashboard/'
-  },
-  {
     name: 'Things I Use',
     description:
       "A curated list of the tech that I use. This is a static site built with Astro and React. The site features a light and a dark mode. It's purpose is not only to be a place where I can share the tech that I use, but a place for people to get to know me a little better. There are posts about the tech that I use, and why I like it so much.",
