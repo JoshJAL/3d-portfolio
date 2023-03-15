@@ -27,16 +27,16 @@ export default function Contact() {
 
     emailjs
       .send(
-        'service_uw6nbyn',
-        'template_387k90o',
+        'service_8zgbaby',
+        'template_fs2yziv',
         {
           from_name: form.name,
           to_name: 'Joshua Levine',
           reply_to: form.email,
-          to_email: 'JoshuaALevine3@gmail.com',
+          to_email: 'JoshuaAlexanderLevine@gmail.com',
           message: form.message
         },
-        'BIZHYGhbeDgTpPZia'
+        'Be6DvFsKmMd5cIckL'
       )
       .then(() => {
         setLoading(false);

@@ -22,7 +22,9 @@ import {
   LAS,
   javaSnake,
   TIU,
-  modernUI
+  modernUI,
+  ticketingSolution,
+  adminDashboard
 } from '../assets';
 
 export const navLinks = [
@@ -217,30 +219,17 @@ const projects = [
     source_code_link: 'https://github.com/JoshJAL/restaurant_reservation_system'
   },
   {
-    name: 'Java Snake',
+    name: 'Ticketing Solution',
     description:
-      'The classic game of Snake. The player controls a snake that moves around the screen and eats apples. This program is written in Java and uses the Java Swing library to create the GUI.',
+      'A scalable ticketing solution for use within any company or organization. The application is password protected and developers are the only ones able to whitelist accounts that can gain access and sign up to use the system. Interactions with the application are different based on the type of user; developer, quality assurance, or general user.',
     tags: [
       {
-        name: 'Java',
-        color: 'orange-text-gradient'
-      }
-    ],
-    image: javaSnake,
-    source_code_link: 'https://github.com/JoshJAL/JavaSnake'
-  },
-  {
-    name: 'Things I Use',
-    description:
-      "A curated list of the tech that I use. This is a static site built with Astro and React. The site features a light and a dark mode. It's purpose is not only to be a place where I can share the tech that I use, but a place for people to get to know me a little better. There are posts about the tech that I use, and why I like it so much.",
-    tags: [
-      {
-        name: 'Astro',
-        color: 'violet-text-gradient'
+        name: 'Next.js',
+        color: 'green-text-gradient'
       },
       {
-        name: 'React',
-        color: 'blue-text-gradient'
+        name: 'Node.js',
+        color: 'green-text-gradient'
       },
       {
         name: 'TypeScript',
@@ -251,17 +240,42 @@ const projects = [
         color: 'yellow-text-gradient'
       },
       {
-        name: 'Tailwind',
-        color: 'green-text-gradient'
+        name: 'HTML',
+        color: 'orange-text-gradient'
       },
       {
-        name: 'Markdown',
-        color: 'pink-text-gradient'
+        name: 'CSS',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Supabase',
+        color: 'mint-text-gradient'
       }
     ],
-    image: TIU,
-    source_code_link: 'https://github.com/JoshJAL/what-i-use',
-    hosted_application_link: 'https://things-i-use.vercel.app/'
+    image: ticketingSolution,
+    source_code_link: 'https://github.com/JoshJAL/ticketingSolution'
+  },
+  {
+    name: 'Admin Dashboard',
+    description:
+      'An admin dashboard for a fake e-commerce website. This dashboard will allow the admin to view, create, edit and delete products, categories and users. The admin will also be able to view the orders that have been placed and change the status of the order. The admin will also be able to view the analytics of the website.',
+    tags: [
+      {
+        name: 'JavaScript',
+        color: 'yellow-text-gradient'
+      },
+      {
+        name: 'HTML',
+        color: 'orange-text-gradient'
+      },
+      {
+        name: 'CSS',
+        color: 'blue-text-gradient'
+      }
+    ],
+    image: adminDashboard,
+    source_code_link: 'https://github.com/JoshJAL/admin-dashboard',
+    hosted_application_link: 'https://admin-dashboard-six-lake.vercel.app/'
   },
   {
     name: 'Modern UI Design',
