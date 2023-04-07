@@ -256,9 +256,9 @@ const projects = [
     source_code_link: 'https://github.com/JoshJAL/ticketingSolution'
   },
   {
-    name: 'Admin Dashboard',
+    name: 'MERN Stack Admin Dashboard',
     description:
-      'An admin dashboard for a fake e-commerce website. This dashboard will allow the admin to view, create, edit and delete products, categories and users. The admin will also be able to view the orders that have been placed and change the status of the order. The admin will also be able to view the analytics of the website.',
+      'A full-stack admin dashboard for a fake e-commerce business built using the MERN (Mongoose, Express, React, Node) stack. The dashboard is fully functional, fully responsive and features a light and dark mode.',
     tags: [
       {
         name: 'JavaScript',
@@ -269,13 +269,25 @@ const projects = [
         color: 'orange-text-gradient'
       },
       {
-        name: 'CSS',
+        name: 'Mongoose',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'Express',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'React',
         color: 'blue-text-gradient'
+      },
+      {
+        name: 'Node.js',
+        color: 'green-text-gradient'
       }
     ],
     image: adminDashboard,
-    source_code_link: 'https://github.com/JoshJAL/admin-dashboard',
-    hosted_application_link: 'https://admin-dashboard-six-lake.vercel.app/'
+    source_code_link: 'https://github.com/JoshJAL/fullstack-admin',
+    hosted_application_link: 'https://admin-frontend-hw02.onrender.com/'
   },
   {
     name: 'Modern UI Design',

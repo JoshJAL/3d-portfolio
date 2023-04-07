@@ -34,7 +34,7 @@ import simpleCalc from '/project_images/simpleCalcHome.jpg';
 import ticketingSolution from '/project_images/ticketForm.jpg';
 import javaSnake from '/project_images/gameRunning.jpg';
 import javaCalc from '/project_images/javaCalcHome.jpg';
-import adminDashboard from '/project_images/desktop-dark.jpg';
+import adminDashboard from '/project_images/dashboard-dark.jpg';
 import textEditor from '/project_images/firstOpen.jpg';
 import TIU from '/project_images/home-dark.jpg';
 import modernUI from '/project_images/modernUIHome-page.jpg';
