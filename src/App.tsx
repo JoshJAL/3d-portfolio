@@ -19,8 +19,8 @@ export default function App() {
           <Hero />
           <Blurb />
         </div>
-        <About />
         <Experience />
+        <About />
         <Tech />
         <Projects />
         <Feedbacks />
