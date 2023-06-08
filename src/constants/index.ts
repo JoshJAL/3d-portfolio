@@ -180,7 +180,17 @@ const testimonials = [
     name: 'Mark Ingles',
     designation: 'President',
     company: 'Rob Graham Enterprises',
-    image: '/testimonialImages/markIngles.jpg'
+    image: '/testimonialImages/markIngles.jpg',
+    website: ''
+  },
+  {
+    testimonial:
+      'It was a great experience working with Josh. I told him what I expected for my website and he delivered! Also made some helpful creative suggestions.',
+    name: 'Alexa Hoyos',
+    designation: 'Owner',
+    company: 'Shoelacetip Ink',
+    image: '/testimonialImages/alexaEmailHeadshot.jpg',
+    website: 'https://www.shoelacetipink.com/'
   }
 ];
 
